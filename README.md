@@ -52,6 +52,7 @@ Abra http://localhost:8000.
 │   ├── favicon-64.png
 │   ├── logo-horizontal.png
 │   ├── infinito.png
+│   ├── og-image.png
 │   └── sistema-gestao-preview.webp
 ├── .gitignore
 └── README.md
@@ -63,7 +64,11 @@ O site é estático e pode ser publicado no Netlify ou GitHub Pages. Um push no 
 
 ## SEO e compartilhamento
 
-O `index.html` inclui descrição, URL canônica e metadados Open Graph/Twitter. A imagem de compartilhamento reutiliza a logo horizontal já publicada em `assets/logo-horizontal.png`, sem alterar o layout da landing page.
+O `index.html` inclui descrição, URL canônica e metadados Open Graph/Twitter. A imagem de compartilhamento utiliza `assets/og-image.png` (1200 × 630), sem alterar o layout da landing page.
+
+## Acessibilidade
+
+O site inclui navegação por teclado com foco visível, atalho para o conteúdo principal, menu móvel com estado acessível e fechamento por `Escape`, botões do fluxo com `aria-pressed` e suporte a `prefers-reduced-motion`.
 
 ## Observações
 
