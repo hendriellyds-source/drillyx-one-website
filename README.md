@@ -32,7 +32,7 @@ Este repositório apresenta a identidade digital da **Drillyx ONE**, criada para
 
 ## Executar localmente
 
-Depois de enviar os arquivos do projeto para este repositório, clone-o e execute, na pasta raiz:
+Clone este repositório e execute, na pasta raiz:
 
 ```bash
 python -m http.server 8000
@@ -57,7 +57,13 @@ Abra http://localhost:8000.
 └── README.md
 ```
 
-O site é estático e pode ser publicado no Netlify ou GitHub Pages. Um push no GitHub **não atualiza automaticamente** a hospedagem anterior sem integração de deploy.
+**Site publicado:** https://drillyxone.netlify.app/
+
+O site é estático e pode ser publicado no Netlify ou GitHub Pages. Um push no GitHub só atualiza a hospedagem se o deploy automático estiver conectado ao repositório.
+
+## SEO e compartilhamento
+
+O `index.html` inclui descrição, URL canônica e metadados Open Graph/Twitter. A imagem de compartilhamento reutiliza a logo horizontal já publicada em `assets/logo-horizontal.png`, sem alterar o layout da landing page.
 
 ## Observações
 
